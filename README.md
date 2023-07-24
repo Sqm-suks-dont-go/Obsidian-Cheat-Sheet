@@ -24,9 +24,8 @@ This works a header of any depth (using #, ##, ###, etc...). The tag used must b
 This looks like this: [my test](#call-out-boxes)  
 This is not natively supported in Obsidian, but there may be a plugin for it.
 
-To link using Obsidian specific syntax, you can place anchors with the `^` caret. This can be placed at the end of a block or list and can be given a name. For example, if you put a caret at the end of the "Call out boxes" section like this: `^end-of-call` it can be refenced like this:
-`[[#^end-of-call|my other test]]`  
-[[#^end-of-call|my other test]]
+To link using Obsidian specific syntax, you can place anchors with the `^` caret. This can be placed at the end of a block or list and can be given a name. For example, if you put a caret at the end of the "Call out boxes" section like this: `^end-of-call` it can be refenced like this:  
+`[[#^end-of-call|my other test]]`   
 Where "my other test" is the display text. This is not supported by regular markdown.
 
 ---
@@ -50,7 +49,6 @@ D-->A;
 [Call Outs](https://help.obsidian.md/Editing+and+formatting/Callouts)
 
 These boxes can be used to add flare to your notes, there are multiple different colors and symbols. Markdown natively doesn't render, they look fantastic in obsidian though. 
-^end-of-call
 
 ---
 ## Visual note-taking

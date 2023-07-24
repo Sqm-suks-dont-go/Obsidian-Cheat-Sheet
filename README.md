@@ -38,9 +38,9 @@ These boxes can be used to add flare to your notes, there are multiple different
 ---
 
 ## Visual note-taking
-//todo add images
-Useful for taking notes, most notably in video games (so far)
-Use these settings for the nodes for best results (image here)
+//todo add images  
+Useful for taking notes, most notably in video games (so far)  
+Use these settings for the nodes for best results (image here)  
 [Useful plugin](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Plugins/persistent-graph) for saving graph for visual notes.
 
 ---

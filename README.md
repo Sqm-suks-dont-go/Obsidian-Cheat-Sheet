@@ -1,5 +1,7 @@
 # Obsidian-Cheat-Sheet
 
+^ef0017
+
 ## Internal File Linking
 
 In Obsidian we can link files inside the computer file system to notes. This is useful when using programs like Matlab or Solidworks or applications that are needed for specific applications. 
@@ -15,9 +17,19 @@ If the address has a space lets say `/Obsidian Vault/` The address will stop at 
 ---
 ## Linking within document
 
-[my text](#call-out-boxes)
+To link to a section within a file using markdown (usable in Github), use this format:  
+`[Display text](#header-name)`  
+This works a header of any depth (using #, ##, ###, etc...). The tag used must be all lower-case and spaces must be replaced with hyphens. An example link to the "Call Out Boxes" section would be this:  
+`[my test](#call-out-boxes)`  
+This looks like this: [my test](#call-out-boxes)  
+This is not natively supported in Obsidian, but there may be a plugin for it.
 
+To link using Obsidian specific syntax, you can place anchors with the `^` caret. This can be placed at the end of a block or list and can be given a name. For example, if you put a caret at the end of the "Call out boxes" section like this: `^end-of-call` it can be refenced like this:
+`[[#^end-of-call|my other test]]`  
+[[#^end-of-call|my other test]]
+Where "my other test" is the display text. This is not supported by regular markdown.
 
+---
 ## Mermaid Charts (Gantt Charts are broken, don't even bother.)
 [Mermaid Diagrams](https://mermaid-js.github.io/mermaid/#/)
 
@@ -38,6 +50,7 @@ D-->A;
 [Call Outs](https://help.obsidian.md/Editing+and+formatting/Callouts)
 
 These boxes can be used to add flare to your notes, there are multiple different colors and symbols. Markdown natively doesn't render, they look fantastic in obsidian though. 
+^end-of-call
 
 ---
 ## Visual note-taking
@@ -45,7 +58,7 @@ These boxes can be used to add flare to your notes, there are multiple different
 //todo add images  
 Useful for taking notes, most notably in video games (so far)  
 Use these settings for the nodes for best results (image here)  
-See Persistent graph plugin for saving graph for visual notes.
+See Persistent graph plugin in [Community Plug-ins](#community-plug-ins) for saving graph for visual notes.
 
 ---
 ## Useful settings
@@ -55,12 +68,13 @@ See Persistent graph plugin for saving graph for visual notes.
 ---
 ## Community Plug-ins
 
-1. Calender by Lian Cain
+1. Calender by Lian Cain ^781268
 2. Highlightr by chetachi (He/she "no idea" has an interesting way of scrolling through the colors that's actually innovative "i like it alot")
 3. Image Toolkit by sissilab
 4. Obsidian CircuitJS by Steven Gann
 5. Obsidian matrix by Jonas Mohr
 6. Meld Encrypt by meld-cp
 7. [Persistent graph](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Plugins/persistent-graph) by Sanqui
+8. [Remember cursor position](https://github.com/dy-sh/obsidian-remember-cursor-position) by Dmitry Savosh
 
 ---

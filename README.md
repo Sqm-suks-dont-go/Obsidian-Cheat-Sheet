@@ -37,6 +37,19 @@ These boxes can be used to add flare to your notes, there are multiple different
 
 ---
 
+## Visual note-taking
+//todo add images
+Useful for taking notes, most notably in video games (so far)
+Use these settings for the nodes for best results (image here)
+[Useful plugin](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Plugins/persistent-graph) for saving graph for visual notes.
+
+---
+
+## Useful settings
+- VIM editing: Editor -> Advanced
+
+---
+
 ## Community Plug-ins
 1. Calender by Lian Cain
 2. Highlightr by chetachi (He/she "no idea" has an intresting way of scolling through the colors thats actully innovative "i like it alot")
@@ -44,4 +57,8 @@ These boxes can be used to add flare to your notes, there are multiple different
 4. Obsidian CircuitJS by Steven Gann
 5. Obsidian matrix by Jonas Mohr
 6. Meld Encrypt by meld-cp
+
+ ---
+
+
 

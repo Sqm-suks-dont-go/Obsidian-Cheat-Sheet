@@ -17,6 +17,9 @@ If the address has a space lets say `/Obsidian Vault/` The address will stop at 
 ---
 ## Linking within document
 
+Linking to a Header inside a note.
+[[<Note_Name>#<Header_name>]]
+
 To link to a section within a file using markdown (usable in Github), use this format:  
 `[Display text](#header-name)`  
 This works a header of any depth (using #, ##, ###, etc...). The tag used must be all lower-case and spaces must be replaced with hyphens. An example link to the "Call Out Boxes" section would be this:  

@@ -18,7 +18,7 @@ If the address has a space lets say `/Obsidian Vault/` The address will stop at 
 ## Linking within document
 
 Linking to a Header inside a note.
-[[<Note_Name>#<Header_name>]]
+`[[<Note_Name>#<Header_name>]]`
 
 To link to a section within a file using markdown (usable in Github), use this format:  
 `[Display text](#header-name)`  
